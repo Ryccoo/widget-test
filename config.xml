@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/StockQuote" version="1.0.0" viewmodes="maximized">
+    <tizen:app-widget id="N65miRUdTg.StockQuote.StockQuote" primary="true">
+        <tizen:widget-label>Hello Web Widget!</tizen:widget-label>
+        <tizen:widget-content src="widget/StockQuote/index.html">
+            <tizen:widget-size preview="widget/StockQuote/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="N65miRUdTg.StockQuote" package="N65miRUdTg" required_version="2.3.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>StockQuote</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>

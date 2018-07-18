@@ -1,0 +1,70 @@
+html,
+body {
+  width: 360px;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  background-color: #000;
+  color: #fff;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+
+div.stock {
+	margin-left: 50px;
+	margin-bottom: 15px;
+	width: 280px;
+	padding: 0px;
+	font-size: 24px;
+	color: #ffffff;
+	display:block;
+	/* border: 1px solid white; */
+}
+
+span.name {
+	font-weight: bold;
+	
+	width: 130px;
+	text-align: left;
+}
+
+span.price {
+	width: 130px;
+	text-align: left;
+}
+
+span.change {
+	width: 130px;
+	text-align: left;
+}
+
+span.percent {
+	width: 130px;
+	text-align: left;
+}
+
+
+.text-green {
+	color: #2ecc71;
+}
+
+.text-red {
+	color: #e74c3c;
+}
+
+.unit-inline {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	/* border: 1px solid white; */
+}
